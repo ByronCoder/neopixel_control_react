@@ -1,0 +1,39 @@
+body {
+  margin-top: 5px;
+}
+
+.App {
+  text-align: center;
+}
+
+.button {
+  height: 50vh;
+  width: 100vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.buttonList {
+  height: 50%;
+  width: 100%;
+}
+
+.btnImage {
+  width: 100px;
+  height: 100px;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+}
+.caption {
+  display: block;
+  font-size: 30px;
+}
+
+.appTitle {
+  text-align: center;
+}
