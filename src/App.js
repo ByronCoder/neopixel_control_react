@@ -5,7 +5,7 @@ import ButtonList from "./components/ButtonList";
 function App() {
   return (
     <div>
-      <h2 className="appTitle">Neopixel Control Test 123</h2>
+      <h2 className="appTitle">Neopixel Control</h2>
       <ButtonList />
     </div>
   );
