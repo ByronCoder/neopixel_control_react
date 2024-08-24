@@ -1,6 +1,5 @@
 {
   "name": "neopixel_control",
-  "homepage": "https://byroncoder.github.io/neopixel_control",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

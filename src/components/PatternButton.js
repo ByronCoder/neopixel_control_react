@@ -3,19 +3,16 @@ import useAxios from "axios-hooks";
 
 function PatternButton(props) {
   // eslint-disable-next-line
-  const [{ data }, postData] = useAxios(
+  const [{ data }, getRequest] = useAxios(
     {
-      url: `https://io.adafruit.com/api/v2/webhooks/feed/4zVqBduBFcU7mFaj2y4KQwpx4DUe`,
-      method: "POST",
-      data: {
-        value: props.pattern
-      }
+      url: `http://10.0.0.99:3001/${props.pattern}`,
+      method: "GET",
     },
     { manual: true }
   );
 
   return (
-    <button className="btn btn-dark button" onClick={postData}>
+    <button className="btn btn-dark button" onClick={getRequest}>
       <div className="item">
         <span className="caption">{props.text}</span>
         <img className="btnImage" src={props.img} alt="" />
